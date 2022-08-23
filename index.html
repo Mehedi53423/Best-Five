@@ -23,53 +23,53 @@
     <main class="flex justify-center bg-gray-900">
         <!-- Player Section Start -->
         <section class="flex mt-10 p-8 w-4/5">
-            <div class="grid grid-cols-3 gap-8 w-3/4">
-                <div class="bg-black border border-gray-700">
-                    <img src="images/cristiano_ronaldo.jpg" alt="Cristiano Ronaldo" class="w-full h-2/3">
+            <div class="grid grid-cols-3 grid-rows-2 gap-x-8 w-3/4">
+                <div class="bg-black border border-gray-700 h-5/6">
+                    <img src="images/cristiano_ronaldo.jpg" alt="Cristiano Ronaldo" class="w-full h-3/5">
                     <div class="text-center pt-5">
                         <h1 class="text-white text-3xl font-bold">Cristiano Ronaldo</h1>
-                        <h1 class="text-gray-500 pt-2 text-lg">80 Goals . 120 Assist</h1>
-                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl">SELECT</button>
+                        <h1 class="text-gray-500 pt-2 text-lg">80 Goals <span class="font-bold">&middot;</span> 120 Assist</h1>
+                        <button class="text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl" id="cristianoRonaldo" onclick="cristianoRonaldo()">SELECT</button>
                     </div>
                 </div>
-                <div class="bg-black border border-gray-700">
-                    <img src="images/lionel_messi.jpg" alt="Lionel Messi" class="w-full h-2/3">
+                <div class="bg-black border border-gray-700 h-5/6 ">
+                    <img src="images/lionel_messi.jpg" alt="Lionel Messi" class="w-full h-3/5">
                     <div class="text-center pt-5">
                         <h1 class="text-white text-3xl font-bold">Lionel Messi</h1>
-                        <h1 class="text-gray-500 pt-2 text-lg">80 Goals . 120 Assist</h1>
-                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl">SELECT</button>
+                        <h1 class="text-gray-500 pt-2 text-lg">60 Goals <span class="font-bold">&middot;</span> 160 Assist</h1>
+                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl" id="lionelMessi" onclick="lionelMessi()">SELECT</button>
                     </div>
                 </div>
-                <div class="bg-black border border-gray-700">
-                    <img src="images/mbappe.jpg" alt="Mbappe" class="w-full h-2/3">
+                <div class="bg-black border border-gray-700 h-5/6">
+                    <img src="images/mbappe.jpg" alt="Mbappe" class="w-full h-3/5">
                     <div class="text-center pt-5">
                         <h1 class="text-white text-3xl font-bold">Mbappe</h1>
-                        <h1 class="text-gray-500 pt-2 text-lg">80 Goals . 120 Assist</h1>
-                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl">SELECT</button>
+                        <h1 class="text-gray-500 pt-2 text-lg">48 Goals <span class="font-bold">&middot;</span> 89 Assist</h1>
+                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl" id="mbappe" onclick="mbappe()">SELECT</button>
                     </div>
                 </div>
-                <div class="bg-black border border-gray-700">
-                    <img src="images/neymar.jpg" alt="Neymar" class="w-full h-2/3">
+                <div class="bg-black border border-gray-700 h-5/6 -mt-20">
+                    <img src="images/neymar.jpg" alt="Neymar" class="w-full h-3/5">
                     <div class="text-center pt-5">
                         <h1 class="text-white text-3xl font-bold">Neymar</h1>
-                        <h1 class="text-gray-600 pt-2 text-lg">80 Goals . 120 Assist</h1>
-                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl">SELECT</button>
+                        <h1 class="text-gray-600 pt-2 text-lg">55 Goals <span class="font-bold">&middot;</span> 125 Assist</h1>
+                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl" id="neymar" onclick="neymar()">SELECT</button>
                     </div>
                 </div>
-                <div class="bg-black border border-gray-700">
-                    <img src="images/ronaldo.jpg" alt="Ronaldo" class="w-full h-2/3">
+                <div class="bg-black border border-gray-700 h-5/6 -mt-20">
+                    <img src="images/ronaldo.jpg" alt="Ronaldo" class="w-full h-3/5">
                     <div class="text-center pt-5">
                         <h1 class="text-white text-3xl font-bold">Ronaldo</h1>
-                        <h1 class="text-gray-600 pt-2 text-lg">80 Goals . 120 Assist</h1>
-                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl">SELECT</button>
+                        <h1 class="text-gray-600 pt-2 text-lg">85 Goals <span class="font-bold">&middot;</span> 212 Assist</h1>
+                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl" id="ronaldo" onclick="ronaldo()">SELECT</button>
                     </div>
                 </div>
-                <div class="bg-black border border-gray-700">
-                    <img src="images/ronaldinho.jpg" alt="Ronaldinho" class="w-full h-2/3">
+                <div class="bg-black border border-gray-700 h-5/6 -mt-20">
+                    <img src="images/ronaldinho.jpg" alt="Ronaldinho" class="w-full h-3/5">
                     <div class="text-center pt-5">
                         <h1 class="text-white text-3xl font-bold">Ronaldinho</h1>
-                        <h1 class="text-gray-600 pt-2 text-lg">80 Goals . 120 Assist</h1>
-                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl">SELECT</button>
+                        <h1 class="text-gray-600 pt-2 text-lg">43 Goals <span class="font-bold">&middot;</span> 224 Assist</h1>
+                        <button class="border border-blue-500 text-white px-5 py-2 mt-10 bg-blue-500 hover:bg-blue-700 hover:border-blue-700 w-4/5 font-bold text-xl" id="ronaldinho" onclick="ronaldinho()">SELECT</button>
                     </div>
                 </div>   
             </div>
@@ -77,38 +77,33 @@
             <div class="w-1/4">
                 <div class="bg-black p-5 ml-8 text-white text-left">
                     <h1 class="text-center text-3xl font-bold">Select Any Five</h1>
-                    <ul class="text-lg font-bold text-center mt-5">
-                        <li"><span class="text-gray-500">1. </span>Ronaldo</li>
-                        <li><span class="text-gray-500">2. </span>Ronaldo</li>
-                        <li><span class="text-gray-500">3. </span>Ronaldo</li>
-                        <li><span class="text-gray-500">4. </span>Ronaldo</li>
-                        <li><span class="text-gray-500">5. </span>Ronaldo</li>
+                    <ul class="text-lg font-bold text-left mt-5" id="playerList">
                     </ul>
                 </div>
-                <div class="bg-black p-5 ml-8 mt-8 text-white">
+                <div class="bg-black p-5 ml-8 mt-8">
                     <div class="text-center">
                         <h1 class="text-center text-3xl font-bold text-white">Budget</h1>
                         <div class="flex justify-between text-lg mt-5">
-                            <h1 class="pr-2">Per Player</h1>
+                            <h1 class="pr-2 text-white">Per Player</h1>
                             <input type="text">
                         </div>
                         <button class="border border-blue-500 text-white font-bold px-5 py-2 mt-5 w-2/3 bg-blue-500 hover:bg-blue-700 hover:border-blue-700">Calculate</button>
                     </div>
                     <div class="text-center">
-                        <div class="flex justify-between text-lg mt-5">
+                        <div class="flex justify-between text-lg mt-5 text-white">
                             <h1>Player Expenses</h1>
                             <h1 id="playerExpenses">$10000</h1>
                         </div>
                         <div class="flex justify-between text-lg mt-5">
-                            <h1 class="">Manager</h1>
+                            <h1 class="text-white">Manager</h1>
                             <input type="text">
                         </div>
                         <div class="flex justify-between text-lg mt-5">
-                            <h1 class="">Coach</h1>
+                            <h1 class="text-white">Coach</h1>
                             <input type="text">
                         </div>
                         <button class="border border-blue-500 text-white font-bold px-5 py-2 mt-5 w-2/3 bg-blue-500 hover:bg-blue-700 hover:border-blue-700">Calculate</button>
-                        <div class="flex justify-between text-lg mt-5">
+                        <div class="flex justify-between text-lg text-white mt-5">
                             <h1 class="">Total</h1>
                             <h1 class="">$10000</h1>
                         </div>
@@ -125,5 +120,7 @@
         <h1 class="text-center text-white">Copyright @ 2022 All Rights reserved.</h1>
     </footer>
     <!-- Footer End -->
+    <!-- JS Files -->
+    <script src="js/players.js"></script>
 </body>
 </html>

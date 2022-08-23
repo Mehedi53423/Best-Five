@@ -46,7 +46,7 @@ function mbappe() {
     btn.disabled = true;
     btn.style.backgroundColor = "gray";
   }
-  selectPlayer("Mbappe");
+  selectPlayer("Kylian Mbappé");
 }
 
 function neymar() {

@@ -1,10 +1,11 @@
 const bestFive = [];
 let j = 1;
 
+// Select Any Five
 function selectPlayer(playerName) {
   const list = document.getElementById("playerList");
   const li = document.createElement("li");
-  li.innerHTML = `${j++}. ${playerName}`;
+  li.innerHTML = `<span class="text-gray-300 pr-2">${j++}.</span> ${playerName}`;
   if (bestFive.length !== 5) {
     bestFive.push(li);
   }
@@ -14,6 +15,7 @@ function selectPlayer(playerName) {
   }
 }
 
+// Players
 function cristianoRonaldo() {
   let btn = document.getElementById("cristianoRonaldo");
   if (bestFive.length >= 5) {
@@ -78,6 +80,7 @@ function ronaldinho() {
   selectPlayer("Ronaldinho");
 }
 
+// Calculations
 function calculate() {
   const perPlayer = document.getElementById("perPlayer").value;
   const playerExpenses = document.getElementById("playerExpenses");
